@@ -30,7 +30,7 @@ body {
     text-align: center;
     background-color: var(--circus-danger);
     color: white;
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
 
     a {
         color: white;
@@ -38,3 +38,14 @@ body {
 }
 
 /* #endregion Sale */
+
+/* #region Header */
+
+header {
+    .header_container {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* #endregion Header */
