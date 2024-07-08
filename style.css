@@ -1,8 +1,9 @@
+/* region Common */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
 }
 
 body {
@@ -10,3 +11,30 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+:root {
+    --circus-danger: #EC6C5B;
+    --circus-success: #4CC083;
+    --circus-review-background: #E2F3F0;
+    --circus-categories-green: #def0f0;
+    --circus-categories-yellow: #fcebd1;
+    --circus-categories-purple: #e1e1ed;
+    --circus-categories-pink: #fde5e5;
+}
+
+/* endregion Common */
+
+/* #region Sale */
+
+.sale {
+    text-align: center;
+    background-color: var(--circus-danger);
+    color: white;
+    padding: 0.5rem 0;
+
+    a {
+        color: white;
+    }
+}
+
+/* #endregion Sale */
