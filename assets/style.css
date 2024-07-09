@@ -57,6 +57,7 @@ header {
 main {
     font-weight: 300;
 
+
     .jumbotron {
         background-image: url(./img/billboard-bg.png);
         background-position: center;
@@ -72,8 +73,39 @@ main {
         img {
             justify-self: end;
             justify-items: end;
-
         }
+
+        .jumbo_bottom {
+            position: absolute;
+            bottom: 70px;
+            margin: 0 auto;
+            width: 67%;
+
+            .jumbo_card {
+                padding: 1.5rem 1.7rem;
+                background-color: white;
+                border-radius: 15px;
+                box-shadow: rgba(149, 157, 165, 0.6) 2px 2px 20px;
+
+                .jumbo_card_top {
+                    font-weight: bold;
+                    font-size: 35px;
+                    color: var(--circus-danger);
+                }
+
+                .jumbo_card_bottom {
+                    font-weight: bold;
+                    font-size: 18px;
+                    display: block;
+                }
+            }
+        }
+
+
+    }
+
+    .about {
+        margin-top: 10rem;
     }
 }
 
