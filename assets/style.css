@@ -227,6 +227,24 @@ main {
             }
         }
     }
+
+    .reviews {
+        padding: 10rem 2rem;
+        background-color: var(--circus-review-background);
+
+        h2 {
+            font-size: 55px;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        .review_name {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
 }
 
 /* #endregion Main */
