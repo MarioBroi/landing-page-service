@@ -1,4 +1,4 @@
-/* region Common */
+/* #region Common */
 
 * {
     margin: 0;
@@ -35,7 +35,7 @@ body {
     font-size: 20px;
 }
 
-/* endregion Common */
+/* #endregion Common */
 
 /* #region Sale */
 
@@ -80,6 +80,11 @@ main {
             border: none;
         }
 
+        input:focus {
+            border: none;
+            box-shadow: none;
+        }
+
         img {
             justify-self: end;
             justify-items: end;
@@ -87,9 +92,9 @@ main {
 
         .jumbo_bottom {
             position: absolute;
-            bottom: 375px;
+            bottom: 290px;
             margin: 0 auto;
-            width: 51%;
+            width: 54%;
 
             .jumbo_card {
                 padding: 1.5rem 1.7rem;
@@ -107,6 +112,17 @@ main {
                     font-weight: bold;
                     font-size: 18px;
                     display: block;
+                }
+            }
+
+            .jumbo_card:hover {
+                transition: 0.4s ease-in-out;
+                color: white;
+                background-color: var(--circus-success);
+
+                .jumbo_card_top {
+                    transition: 0.4s ease-in-out;
+                    color: white;
                 }
             }
         }
@@ -259,9 +275,43 @@ main {
         }
 
         img {
-            padding: 1rem;
-            border-radius: 25px;
+            padding: 0.5rem;
+            border-radius: 18px;
         }
+
+        .socials {
+            display: none;
+        }
+
+        .card:hover {
+            .socials {
+                display: block;
+                position: absolute;
+                top: 0.5rem;
+                left: 0.5rem;
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    padding: 0.2rem;
+                    background-color: #4CC083;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+
+                a:first-of-type {
+                    border-top-left-radius: 5px;
+                }
+
+                a:hover {
+                    transition: 0.3s ease-in-out;
+                    background-color: var(--circus-danger);
+                }
+            }
+        }
+
+
     }
 
     .values {
