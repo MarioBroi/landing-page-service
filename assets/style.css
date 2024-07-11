@@ -369,6 +369,25 @@ main {
             transform: rotate(40deg);
         }
     }
+
+    .newsletter {
+        padding: 8rem 0;
+        background-color: var(--circus-categories-yellow);
+
+        h2 {
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+
+        .email {
+            width: 100%;
+            padding: 1rem 3rem;
+            border: 0;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
 }
 
 /* #endregion Main */
