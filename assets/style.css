@@ -259,8 +259,24 @@ main {
         }
 
         img {
-            padding: 0.4rem;
-            border-radius: 15px;
+            padding: 1rem;
+            border-radius: 25px;
+        }
+    }
+
+    .values {
+
+        h2 {
+            margin-bottom: 4rem;
+        }
+
+        i {
+            color: var(--circus-danger);
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 19px;
         }
     }
 }
