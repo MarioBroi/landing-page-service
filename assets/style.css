@@ -391,3 +391,37 @@ main {
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0;
+
+    i {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .grow {
+        flex-grow: 2 !important;
+    }
+}
+
+.rights-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #endregion Footer */
