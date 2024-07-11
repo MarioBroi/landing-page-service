@@ -279,6 +279,96 @@ main {
             font-size: 19px;
         }
     }
+
+    .steps {
+        padding: 10rem 1rem;
+
+        .step {
+            position: relative;
+            padding: 1rem 1rem 2.5rem;
+            border-bottom: 4px solid rgba(128, 128, 128, 0.429);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            &:before {
+                position: absolute;
+                right: -13.3px;
+                content: '';
+                border-style: solid;
+                border-width: 10px 10px 10px 0px;
+                border-color: transparent var(--circus-danger) transparent transparent;
+                display: inline-block;
+                vertical-align: middle;
+                z-index: 100;
+                transform: scale(-1, 1);
+            }
+
+            h2 {
+                background-color: var(--circus-danger);
+                color: white;
+                padding: 10px;
+                margin: -20px -20px 10px -20px;
+                border-radius: 8px 8px 0 0;
+            }
+
+            p {
+                padding: 0.3rem 0 1rem;
+                font-size: 23px;
+            }
+        }
+
+        .step_2 {
+            position: relative;
+            padding: 1rem 1rem 2.5rem;
+            border-bottom: 4px solid rgba(128, 128, 128, 0.429);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            &:before {
+                position: absolute;
+                left: -13.3px;
+                content: '';
+                border-style: solid;
+                border-width: 10px 10px 10px 0px;
+                border-color: transparent var(--circus-danger) transparent transparent;
+                display: inline-block;
+                vertical-align: middle;
+                z-index: 100;
+            }
+
+            h2 {
+                background-color: var(--circus-danger);
+                color: white;
+                padding: 10px;
+                margin: -20px -20px 10px -20px;
+                border-radius: 8px 8px 0 0;
+            }
+
+            p {
+                padding: 0.3rem 0 1rem;
+                font-size: 23px;
+            }
+        }
+
+        .line {
+            width: 4px;
+            background-color: var(--circus-danger);
+            height: 100%;
+        }
+
+        .circle {
+            font-size: 20px;
+            background-color: var(--circus-danger);
+            border-radius: 50%;
+            z-index: 1;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .circle_1 {
+            transform: rotate(40deg);
+        }
+    }
 }
 
 /* #endregion Main */
